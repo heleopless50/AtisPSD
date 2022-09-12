@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>psd conversion</title>
+    <!-- favicon -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <!-- styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- icons -->
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ******************************** -->
+    <!-- ======= Topbar Section =======   -->
+    <!-- ******************************** -->
+    <div
+      id="topbar"
+      class="fixed-top d-none d-flex d-lg-block align-items-center"
+    >
+      <div
+        class=" d-flex align-items-center justify-content-center justify-content-md-between container__wrapper"
+      >
+        <div class="col-4 p-2 d-flex justify-content-start">
+          <div class="row">
+            <div class="col-6 d-flex">
+              <i class="bi bi-phone-fill"></i
+              ><a class="" href="mailto:contact@example.com">0729.645.780</a>
+            </div>
+            <div class="col-6 d-flex">
+              <i class="bi bi-envelope-fill phone-icon"></i>
+              <a href="mailto:contact@realstate.com">contact@realstate.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-info d-flex align-items-center"></div>
+        <div
+          class="col-8 d-flex justify-content-end align-items-center text-white gap-4"
+        >
+          <div class="favorites">
+            <i class="bi bi-star-fill"></i>
+            <span>favorites</span>
+          </div>
+          <div class="login-register">
+            <i class="bi bi-box-arrow-in-right"></i>
+            <a>login/register </a>
+          </div>
+          <div class="social-contacts d-flex justify-content-center">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin tobpar__linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******************************** -->
+    <!-- ======= Header Section =======  -->
+    <!-- ******************************** -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container__wrapper d-flex align-items-center justify-content-between">
+        <div class="d-flex gap-4 align-items-center">
+          <a href="#" class="logo"
+            ><img src="assets/images/logo.png" alt="" class="img-fluid"
+          /></a>
+          <span class="text-white" style="color: white"
+            ><a href="#">realestate</a></span
+          >
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="#hero"
+                ><i class="bi bi-house-fill"></i
+              ></a>
+            </li>
+            <li><a class="nav-link scrollto" href="#">For sale </a></li>
+            <li><a href="#">for rent</a></li>
+            <li><a href="#">investment</a></li>
+            <li><a href="#">company</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#" class="login-register d-none">login/register</a></li>
+
+
+            <div class="cta">
+              <a href="#" class="green-button header__button"
+                >Submit your property</a
+              >
+            </div>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ******************************** -->
+    <!-- =======   Hero Section   ======= -->
+    <!-- ******************************** -->
+    <section id="hero" class="d-flex justify-content-center align-items-center">
+
+      <div class="hero__container container__wrapper">
+             
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bx bx-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bx bx-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="carousel-container">
+                <div class="row hero__slider-item d-flex align-items-center">
+                  <div class="col-md-7">
+                    <h3 class="slider-item__title">
+                      Penhouse Apartement with 5 rooms in pipera Forest Area
+                    </h3>
+                    <p class="slider-item__desc">
+                      Penthouse apartment for sale located on Iancu Nicolae
+                      Road. With this property you can enjoy the advantages such
+                      as proximity to Baneasa Forest and the benefits of a
+                      luxury residential area, all in the immediate vicinity of
+                      the largest shopping centers in Bucharest – Baneasa
+                      Shopping City, Carrefour, Metro, Bricostore and Mobexpert.
+                    </p>
+                    <div class="slider-item__buttons d-flex gap-4">
+                      <button class="btn green-button">View Details</button>
+                      <button class="btn transparent-button">
+                        SEE ALL APARTMENTS
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex slider__img-container">
+                    <div class="slider-item__img">
+                      <div class="img__title">Penhouse apartement</div>
+                      <div class="img__price">
+                        $ 132.000
+                        <span class="for-sale">for sale</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="carousel-container">
+                <div class="row hero__slider-item d-flex align-items-center">
+                  <div class="col-md-7">
+                    <h3 class="slider-item__title">
+                      Penhouse Apartement with 5 rooms in pipera Forest Area
+                    </h3>
+                    <p class="slider-item__desc">
+                      Penthouse apartment for sale located on Iancu Nicolae
+                      Road. With this property you can enjoy the advantages such
+                      as proximity to Baneasa Forest and the benefits of a
+                      luxury residential area, all in the immediate vicinity of
+                      the largest shopping centers in Bucharest – Baneasa
+                      Shopping City, Carrefour, Metro, Bricostore and Mobexpert.
+                    </p>
+                    <div class="slider-item__buttons d-flex gap-4">
+                      <button class="btn green-button">View Details</button>
+                      <button class="btn transparent-button">
+                        SEE ALL APARTMENTS
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex slider__img-container">
+                    <div class="slider-item__img">
+                      <div class="img__title">Penhouse apartement</div>
+                      <div class="img__price">
+                        $ 60.000
+                        <span class="for-sale">for sale</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="carousel-container">
+                <div class="row hero__slider-item d-flex align-items-center">
+                  <div class="col-md-7">
+                    <h3 class="slider-item__title">
+                      Penhouse Apartement with 5 rooms in pipera Forest Area
+                    </h3>
+                    <p class="slider-item__desc">
+                      Penthouse apartment for sale located on Iancu Nicolae
+                      Road. With this property you can enjoy the advantages such
+                      as proximity to Baneasa Forest and the benefits of a
+                      luxury residential area, all in the immediate vicinity of
+                      the largest shopping centers in Bucharest – Baneasa
+                      Shopping City, Carrefour, Metro, Bricostore and Mobexpert.
+                    </p>
+                    <div class="slider-item__buttons d-flex gap-4">
+                      <button class="btn green-button">View Details</button>
+                      <button class="btn transparent-button">
+                        SEE ALL APARTMENTS
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex slider__img-container">
+                    <div class="slider-item__img">
+                      <div class="img__title">Penhouse apartement</div>
+                      <div class="img__price">
+                        $ 180.000
+                        <span class="for-sale">for sale</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- ******************************** -->
+    <!-- =======    Search Box     ======= -->
+    <!-- ******************************** -->
+    <section id="search-box">
+      <div class="row ">
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg example"
+          >
+            <option selected>location</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg example"
+          >
+            <option selected>property status</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg example"
+          >
+            <option selected>property type</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg example"
+          >
+            <option selected>enter your keyword</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-6 col-xs-12">
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg example"
+          >
+            <option selected>Bedrooms</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-lg-2 col-md-6 col-xs-12">
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg example"
+          >
+            <option selected>Bathrooms</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <label for="priceRange" class="form-label">Price Range : <span class="price-range__span">$40000-$180.0000</span></label>
+          <input type="range" class="form-range" id="priceRange" />
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <label for="square meter" class="form-label">Square Meter <span class="square-meter__span">$40000-$180.0000</span></label>
+          <input type="range" class="form-range" id="square meter" />
+        </div>
+        <div class="col-lg-2 col-xs-12">
+          <button class="green-button">Search</button>
+        </div>
+      </div>
+    </section>
+    <!-- ******************************** -->
+    <!-- ======= Offering Section ======= -->
+    <!-- ******************************** -->
+
+    <section id="offering" class="section">
+      <div class="offering__wrapper container__wrapper flow">
+        <div class="offering__text flow">
+          <h3 class="offering__title">
+            We Are Offering the Best Real Estate Deals
+          </h3>
+
+          <p class="offering__description">
+            Look at our latest listed properties and check out the facilities on
+            them, We have already sold more than 5,000 Homes and we are still
+            going at very good pace. We would love you to look into these
+            properties and we hope that you will find something match-able to
+            your needs.
+          </p>
+        </div>
+
+        <div class="offering__slider mt-5 offer-swiper">
+          <div class="slider__container swiper-wrapper">
+            <!-- slide 1 -->
+            <div class="swiper-slide">
+              <div class="mb-5 slide-1">
+                <div class="card">
+                  <div class="card-img-top card-placeholder"></div>
+                  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                  <div class="card-body p-4">
+                    <h5
+                      class="card-title text-black-light"
+                      style="font-weight: bold"
+                    >
+                      Villa with 6 Rooms in Dorobanti Area
+                    </h5>
+                    <p class="card-text text-black-light">
+                      Benefits are: very close to city center, easy access to
+                      schools, cafes / restaurants etc... The villa consists;
+                      entrance hall, living room, dining room [...]
+                    </p>
+                  </div>
+
+                  <div class="card-body d-flex">
+                    <a
+                      href="#"
+                      class="card-link green-text-button"
+                      style="flex-grow: 1"
+                      >Favorite</a
+                    >
+                    <a
+                      href="#"
+                      class="card-link blue-button"
+                      style="flex-grow: 1"
+                      >$ 270.000</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- slide 2 -->
+            <div class="swiper-slide">
+              <div class="mb-5 slide-2">
+                <div class="card">
+                  <div class="card-img-top card-placeholder"></div>
+                  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                  <div class="card-body p-4">
+                    <h5
+                      class="card-title text-black-light"
+                      style="font-weight: bold"
+                    >
+                      Apartment with 3 Rooms in Cosmopolis
+                    </h5>
+                    <p class="card-text text-black-light">
+                      Duplex apartment for sale located in Cosmopolis, in
+                      Pipera-Baneasa Forest area. It’s a luxurious residential
+                      building consisting of 4 apartments.
+                    </p>
+                  </div>
+
+                  <div class="card-body d-flex">
+                    <a
+                      href="#"
+                      class="card-link green-text-button"
+                      style="flex-grow: 1"
+                      >Favorite</a
+                    >
+                    <a
+                      href="#"
+                      class="card-link blue-button"
+                      style="flex-grow: 1"
+                      >$ 270.000</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- slide 3 -->
+            <div class="swiper-slide">
+              <div class="mb-5 slide-1">
+                <div class="card">
+                  <div class="card-img-top card-placeholder"></div>
+                  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                  <div class="card-body p-4">
+                    <h5
+                      class="card-title text-black-light"
+                      style="font-weight: bold"
+                    >
+                      Garsonier with 2 Rooms in Unirii Area
+                    </h5>
+                    <p class="card-text text-black-light">
+                      The property enjoys the benefits of both proximity
+                      Herastrau Park and benefits of a luxury residential area,
+                      all in close proximity to the largest shopping centers.
+                    </p>
+                  </div>
+
+                  <div class="card-body d-flex">
+                    <a
+                      href="#"
+                      class="card-link green-text-button"
+                      style="flex-grow: 1"
+                      >Favorite</a
+                    >
+                    <a
+                      href="#"
+                      class="card-link blue-button"
+                      style="flex-grow: 1"
+                      >$ 270.000</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- slide 4 -->
+            <div class="swiper-slide">
+              <div class="mb-5 slide-1">
+                <div class="card">
+                  <div class="card-img-top card-placeholder"></div>
+                  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                  <div class="card-body p-4">
+                    <h5
+                      class="card-title text-black-light"
+                      style="font-weight: bold"
+                    >
+                      Apartment with 3 Rooms in Cosmopolis
+                    </h5>
+                    <p class="card-text text-black-light">
+                      Benefits are: very close to city center, easy access to
+                      schools, cafes / restaurants etc... The villa consists;
+                      entrance hall, living room, dining room [...]
+                    </p>
+                  </div>
+
+                  <div class="card-body d-flex">
+                    <a
+                      href="#"
+                      class="card-link green-text-button"
+                      style="flex-grow: 1"
+                      >Favorite</a
+                    >
+                    <a
+                      href="#"
+                      class="card-link blue-button"
+                      style="flex-grow: 1"
+                      >$ 270.000</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ******************************** -->
+    <!-- ====== Properties Section =====  -->
+    <!-- ******************************** -->
+    <section class="section container__wrapper" id="popularProperties">
+      <div class="container popularProperties__wrapper d-grid">
+        <h3 class="text-green popularProperties__title">popular properties</h3>
+        <div class="property property1">
+          <p>Apartment For Sale With 3 Rooms in tunari Village , Ifov County</p>
+        </div>
+        <div class="property property2">
+          <p>Apartment For Sale With 3 Rooms in tunari Village , Ifov County</p>
+        </div>
+        <div class="property property3">
+          <p>Apartment For Sale With 3 Rooms in tunari Village , Ifov County</p>
+        </div>
+        <div class="property property4">
+          <p>Apartment For Sale With 3 Rooms in tunari Village , Ifov County</p>
+        </div>
+        <div class="property property5">
+          <p>Apartment For Sale With 3 Rooms in tunari Village , Ifov County</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ******************************** -->
+    <!-- ====== Agents Section =====  -->
+    <!-- ******************************** -->
+
+    <section class="section mt-5 container__wrapper" id="agents">
+      <div class="agents__wrapper ">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 agents__text text-xs-center">
+            <h3 class="agents__title text-blue">Our Agents</h3>
+            <h3 class="agents__subtitle text-green">You Can Trust</h3>
+            <p class="agents__desc text-black-light">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              quiofficia deserunt mollit anim id est laborum. Sed ut
+              perspiciatis unde omnis natus ervoluptatem accusantium.
+            </p>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="col-md-8 col-sm-6 swiper_col align-self-end">
+            <div class="agents-swiper" style="overflow: hidden !important">
+              <!-- Additional required wrapper -->
+              <div
+                class="slider__container swiper-wrapper justify-cntent-center"
+              >
+                <!-- Slides -->
+                <div class="swiper-slide text-center">
+                  <img
+                    src="./assets/images/agent1.png"
+                    alt="one of our agents"
+                  />
+                </div>
+                <div class="swiper-slide text-center">
+                  <img
+                    src="./assets/images/agent2.png"
+                    alt="one of our agents"
+                  />
+                </div>
+                <div class="swiper-slide text-center">
+                  <img
+                    src="./assets/images/agent3.png"
+                    alt="one of our agents"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+
+    <!-- ******************************** -->
+    <!-- ====== Footer Section =====  -->
+    <!-- ******************************** -->
+
+    <footer id="footer" style="color: black">
+      <div class="footer__content container__wrapper">
+        <div class="row m-auto">
+          <div class="col-lg-4 col-md-6 first-col flow">
+            <h3 class="footer__title text-blue">ABOUT US</h3>
+            <p class="first-col__desc text-black-light">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officiala deserunt mollit anim id est laborum.
+            </p>
+            <p class="first-col__desc text-black-light">
+              Neque porro quisquam est, qui dolorem ipsum quia dolor siamet,
+              consectetur, adipisci velit, sed quia numquam eus modi tempora
+              incidunt labore et dolore magnam aliquam quvoluptatem.
+            </p>
+          </div>
+          <div class="col-lg-2 col-6 second-col flow">
+            <h3 class="footer__title text-blue">PROPERTY TYPES</h3>
+            <ul class="second-col__list flow text-black-light p-0">
+              <li><i class="bi bi-caret-right-fill"></i> VILLA</li>
+              <li><i class="bi bi-caret-right-fill"></i> Residental</li>
+              <li><i class="bi bi-caret-right-fill"></i> Apartment</li>
+              <li><i class="bi bi-caret-right-fill"></i> Condominum</li>
+              <li><i class="bi bi-caret-right-fill"></i> Shop</li>
+              <li><i class="bi bi-caret-right-fill"></i> Office</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-6 third-col flow">
+            <h3 class="footer__title text-blue">Locations</h3>
+            <ul class="second-col__list flow text-black-light p-0">
+              <li><i class="bi bi-caret-right-fill"></i> Bucharest</li>
+              <li><i class="bi bi-caret-right-fill"></i> Constanta</li>
+              <li><i class="bi bi-caret-right-fill"></i> Brasov</li>
+              <li><i class="bi bi-caret-right-fill"></i> Cluj-Napoca</li>
+              <li><i class="bi bi-caret-right-fill"></i> Craiova</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 fourth-col footer__blog flow">
+            <h3 class="footer__title text-blue">From the blog</h3>
+            <div class="row fourth-col__content">
+              <div class="col-3 img-placeholder"></div>
+              <div class="col-9">
+                <p class="text-black-light footer__blog-p mb-0">
+                  Making First Impressions Count with Leongatha Home
+                </p>
+                <div class="row gap-0 mt-0 pt-0">
+                  <div class="col-6">
+                    <button class="footer-button">interior design</button>
+                  </div>
+                  <div class="col-6 text-black-light footer__blog-date">
+                    <span><i class="bi bi-clock"></i> MARCH 18,2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row fourth-col__content">
+              <div class="col-3 img-placeholder"></div>
+              <div class="col-9">
+                <p class="text-black-light footer__blog-p mb-0">
+                  Making First Impressions Count with Leongatha Home
+                </p>
+                <div class="row gap-0 mt-0 pt-0">
+                  <div class="col-6">
+                    <button class="footer-button">interior design</button>
+                  </div>
+                  <div class="col-6 text-black-light footer__blog-date">
+                    <span><i class="bi bi-clock"></i> MARCH 18,2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ******************************** -->
+    <!-- ====== copyright Section =====  -->
+    <!-- ******************************** -->
+    <section id="copyRight" class="pt-5 ">
+      <div class="container__wrapper copy-right__container d-flex align-items-center">
+        <img
+          class="copy-right__logo"
+          src="assets/images/logo.png"
+          alt="realestate logo"
+        />
+        <h5 class="logo-text text-blue d-inline-block">
+          <span style="font-weight: 900; letter-spacing: 1.2px">real</span
+          >estate
+        </h5>
+        <p class="d-inline-block text-black-light copyright__text">
+          Copyright © 2016 RealEstate, Inc. All rights reserved.
+        </p>
+      </div>
+    </section>
+
+    <!-- copy right images -->
+    <div id="#copyRightImages">
+      <img
+        class="copy-right__img1"
+        src="./assets/images/footer-image1.png"
+        alt=""
+      />
+      <img
+        class="copy-right__img2"
+        src="./assets/images/footer-image2.png"
+        alt=""
+      />
+    </div>
+    <div class="space-placeholder"></div>
+
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- main js -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
